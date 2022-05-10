@@ -9,14 +9,14 @@ body{
 }
 article{
   margin: 0px 100px 0px 1000px;
-  height: 1000px;
+  height: 100px;
   background-color: rgba(7, 7, 7, 0.658);
   transition: 0.5s;
   
 }
 
 h1{
-  margin: 0px 0px 5px 0px;
+  margin: 100px 0px 5px 0px;
 }
 .sidenav {
   height: 100%;
