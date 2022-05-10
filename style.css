@@ -1,0 +1,89 @@
+/* Add a black background color to the top navigation */
+body{
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  color: #dbdbdb;
+  background-image: url(images/lord-of-the-rings-amazon-series-valinor-2-1180x590.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+article{
+  margin: 0px 100px 0px 100px;
+  height: 1000px;
+  background-color: rgba(7, 7, 7, 0.658);
+  transition: 0.5s;
+  
+}
+
+h1{
+  margin: 0px 0px 5px 0px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  width: fit-content;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+  nav h1{
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .domek{
+    height: 30px;
+    min-width: 30px;
+    background-image: url(images/domek.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 32px;
+  }
+
+  .domek:hover{
+    height: 30px;
+    width: 30px;
+    background-image: url(yimages/domek_bili.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 32px;
+  }
+
+.obrazek{
+  float: left;
+  margin: 10px;
+  background-color: transparent;
+}
+
+.seznam{
+  display:inline-block;
+  margin-right: 50px;
+}
