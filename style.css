@@ -12,6 +12,9 @@ article{
   height: 1000px;
   background-color: rgba(7, 7, 7, 0.658);
   transition: 0.5s;
+  padding-left: 20px; 
+  padding-right: 20px; 
+  padding-top: 15px;
   
 }
 
