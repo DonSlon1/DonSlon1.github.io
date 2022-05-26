@@ -96,3 +96,9 @@ span{
 .odkaz:visited{
   color: #0066cc;
 }
+li a{
+  color: #818181;
+}
+li a:hover{
+  color: #f1f1f1;
+}
