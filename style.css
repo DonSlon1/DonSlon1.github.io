@@ -6,16 +6,16 @@ body{
   background-image: url(images/lord-of-the-rings-amazon-series-valinor-2-1180x590.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+
 }
 article{
   margin: 0px 100px 0px 100px;
-  height: 1000px;
+  min-height: 1000px;
   background-color: rgba(7, 7, 7, 0.74);
+  background-attachment: fixed;
   transition: 0.5s;
-  padding-left: 20px; 
-  padding-right: 20px; 
-  padding-top: 15px;
-  
+  padding: 15px 20px 40px 20px;
 }
 
 h1{
@@ -92,4 +92,7 @@ h1{
 }
 span{
   margin: 10px;
+}
+.odkaz:visited{
+  color: #0066cc;
 }
