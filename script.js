@@ -15,3 +15,10 @@ function listOpne(){
     document.getElementById("misninavigace").style.display = "block";
     document.getElementById("sipka").outerHTML='<span style="display: inline; margin-left: 30px;" id="sipka" onclick="listClose()">▲</span>';
 }
+document.getElementById("Mnav").style.display = "none";
+function OpenMNav(){
+    document.getElementById("Mnav").style.display = "block";
+}
+function CleseMNav(){
+    document.getElementById("Mnav").style.display = "none";
+}
